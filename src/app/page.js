@@ -11,10 +11,10 @@ import Menu from "@/components/menu/Menu";
 const page = () => {
   return (
     <div className={styles.container}>
-      <Featured/>
-      <CategoryList/>
+      {/* <Featured/>
+      <CategoryList/> */}
       <div className={styles.content}>
-        <CardList/>
+        {/* <CardList/> */}
         <Menu/>
       </div>
     </div>
