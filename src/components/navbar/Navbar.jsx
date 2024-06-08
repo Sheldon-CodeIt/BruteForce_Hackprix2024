@@ -13,13 +13,12 @@ const Navbar = () => {
         <Image src="/youtube.png" alt="youtube" width={24} height={24} />
         <Image src="/instagram.png" alt="instagram" width={24} height={24} />
       </div>
-      <div className={styles.logo}>Roadmap.ai</div>
+      <div className={styles.logo}>BloomBrain.ai</div>
       <div className={styles.links}>
         <ThemeToggle/>
-        <Link href="/">Home</Link>
-        <Link href="/">Roadmap</Link>
-        <Link href="/">quiz</Link>
-        <Link href="/">About</Link>
+        <Link href="/" className={styles.link}>Roadmap</Link>
+        <Link href="/" className={styles.link}>quiz</Link>
+        <Link href="/" className={styles.link}>About</Link>
         <AuthLinks/>
       </div>
     </div>
