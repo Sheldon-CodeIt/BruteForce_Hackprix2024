@@ -114,7 +114,7 @@ const More = () => {
             >
                 
                 <a
-                href="https://github.com/kamranahmedse/developer-roadmap"
+                href="https://github.com/Sheldon-CodeIt/BruteForce_Hackprix2024"
                 target="_blank"
                 className="group mt-0 flex flex-col items-center rounded-lg border border-black bg-white px-3 py-2 text-sm hover:bg-black hover:text-white"
                 >
@@ -134,7 +134,7 @@ const More = () => {
                     <span className="ml-1.5 hover:block">Star us on GitHub</span>
                 </div>
                 <span className="text-xs text-gray-500 group-hover:text-gray-100">
-                    Help us reach #1
+                    Help us grow more
                 </span>
                 </a>
             </div>

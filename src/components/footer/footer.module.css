@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: space-between;
     color: var(--softTextColor);
+    left: 0;
+    bottom: 0;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   
   .info {

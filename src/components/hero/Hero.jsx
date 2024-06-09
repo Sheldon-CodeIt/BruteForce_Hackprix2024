@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -29,7 +30,7 @@ const Hero = () => {
         </div>
       </div>
 
-        <div className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 text-xl w-36 content-center mx-auto mb-5">Get started</div>
+        <div className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 text-xl w-36 content-center mx-auto mb-5"><Link href="/roadmap">Get started</Link></div>
     </div>
   )
 }

@@ -28,9 +28,9 @@ const Footer = () => {
         <div className={styles.list}>
           <span className={styles.listTitle}>Links</span>
           <Link href="/">Homepage</Link>
-          <Link href="/">Roadmap</Link>
-          <Link href="/">Asessments</Link>
-          <Link href="/">About</Link>
+          <Link href="/roadmap">Roadmap</Link>
+          <Link href="/quiz">Asessments</Link>
+          <Link href="/about">About</Link>
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Tags</span>
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Social</span>
-          <Link href="/">Github</Link>
+          <Link href="https://github.com/Sheldon-CodeIt/BruteForce_Hackprix2024">Github</Link>
           <Link href="/">Discord</Link>
           <Link href="/">Twitter</Link>
           <Link href="/">Youtube</Link>
