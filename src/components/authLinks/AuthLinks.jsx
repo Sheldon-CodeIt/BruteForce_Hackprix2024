@@ -12,12 +12,12 @@ const AuthLinks = () => {
   return (
     <>
       {status === "unauthenticated" ? (
-        <Link href="/login" className={styles.link}>
+        <Link href="/login" className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 ml-3">
           Login
         </Link>
       ) : (
         <>
-          <span className={styles.link} onClick={signOut}>
+          <span className="bg-slate-100  border-solid border-blue-500 text-black px-4 py-2 rounded-md hover:bg-slate-200 ml-3" onClick={signOut}>
             Logout
           </span>
         </>

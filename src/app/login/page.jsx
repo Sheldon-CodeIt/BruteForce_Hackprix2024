@@ -17,7 +17,7 @@ const login = () => {
   }
 
   if(status === "authenticated"){
-    router.push("/");
+    router.push("/roadmap");
   }
 
   return (
